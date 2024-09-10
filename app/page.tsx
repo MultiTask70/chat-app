@@ -46,7 +46,7 @@ export default function IndexPage() {
       {({ signOut, user }) => (
         <div className="bg-gray-100 min-h-screen flex flex-col justify-center items-center">
         <header className="bg-white p-4 shadow-sm w-full flex justify-between">
-          <h1 className="text-2xl font-semibold text-gray-800">Chatty</h1>
+          <h1 className="text-2xl font-semibold text-gray-800">Audioptic chatbot</h1>
           <div className="flex items-center">
           <div className="mr-4 text-gray-600 hover:text-gray-800">Welcome {user?.username}!</div>
           <button
